@@ -1,0 +1,85 @@
+/**Place the Header/Title section across the top of the site with a border and appropriate background color.**/
+
+header{
+  border: 6px solid maroon;
+  text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+/**Provide an appropriate background color for the main content section**/
+body{
+  background-color: white
+}
+/**Select appropriate fonts & colors for text on the site.**/
+ * {
+   font-family: Verdana
+ }
+
+
+/**Make the navigation links display different colors when the mouse rolls over the link.**/
+a {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-size: 20px;
+  font-family: Verdana
+}
+
+a:hover {
+  color: maroon;
+  font-size: 1.5rem;
+}
+
+/**Use CSS styling to hide the bullet-points of the unordered lists in the site.**/
+li {
+  list-style-type: none;
+}
+
+/**Place the Footer section across the entire bottom of the site with a border and an appropriate background color**/
+footer {
+  border: 6px solid maroon;
+  text-align: center;
+}
+
+/** Center and unstack the links in the navigation bar **/
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navcontainer ul li {
+  width:160px;
+  display:inline;
+  text-align:center;
+}
+/** Line up the book photos **/
+.book-pics ul {
+  margin: 50;
+  padding: 50;
+}
+
+.book-pics ul li {
+  display:inline;
+}
+
+/*eloquentRuby.html*/
+/*The Eloquent Ruby book image should be left-aligned with the details about the book to the right of it.*/
+/*contact.html
+The site maintainer photo should be left-aligned and the message about contacting the site maintainer to the right of it.*/
+.author-info, .contact-info {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px
+}
+
+/*---------------------------*/
+
+.author-info {
+  font-size: .95rem;
+}
+
+.dividing-line {
+  text-align: center
+}
